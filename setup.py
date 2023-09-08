@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="nosferatu911",
-    version="0.0.4",
-    author="Dmytro Olkhovskyi",
-    author_email="ab190987ods@gmail.com",
-    url="https://www.youtube.com/",
+    name="cloudquicklabs1",
+    version="0.0.1",
+    author="Rekhu Chinnarathod",
+    author_email="vrchinnarathod@gmail.com",
+    url="https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ",
     description="An application that informs you of the time in different locations and timezones",
     packages=find_packages(),
     classifiers=[
@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=["click", "pytz"],
-    entry_points={"console_scripts": ["nosferatu911 = src.main:main"]},
+    entry_points={"console_scripts": ["cloudquicklabs1 = src.main:main"]},
 )
